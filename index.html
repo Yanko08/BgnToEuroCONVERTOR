@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transform money</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form class="main">
+        <h2 class="title">Converter</h2>
+        <section class="items">
+            <label for="bgn" class="objo">
+                <span class="item-objo">BGN:</span>
+                <input type="number" id="bgn" class="valueO" value="0">
+            </label>
+            <label for="euro" class="objo">
+                <span class="item-objo">Euro:</span>
+                <input type="number" id="euro" class="valueO" value="0">
+            </label><br>
+            <input class="btn" type="button" value="Convert!" onclick="convert()">
+        </section>
+    </form>
+    <script src="bgnTOeuro.js"></script>
+</body>
+</html>
